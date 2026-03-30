@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Perfect for beginners to create professional resumes quickly.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "20+ templates",
+      "Basic customization",
+      "Export to PDF"
+    ],
+    "icon": "FileText"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with ATS optimization tools.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF & DOCX"
+    ],
+    "icon": "Briefcase"
+  },
+  {
+    "id": 3,
+    "name": "Career Booster Pack",
+    "description": "All-in-one package for resume, cover letter, and portfolio.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Resume + cover letter builder",
+      "Portfolio templates",
+      "LinkedIn optimization"
+    ],
+    "icon": "Rocket"
+  },
+  {
+    "id": 4,
+    "name": "Freelancer Profile Kit",
+    "description": "Build stunning freelancer profiles for marketplaces.",
+    "price": 14.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Portfolio templates",
+      "Client proposal samples",
+      "Profile optimization tips"
+    ],
+    "icon": "User"
+  },
+  {
+    "id": 5,
+    "name": "Executive CV Suite",
+    "description": "Premium CV templates designed for senior professionals.",
+    "price": 79.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Executive-level templates",
+      "Personal branding tools",
+      "Priority support"
+    ],
+    "icon": "Crown"
+  },
+  {
+    "id": 6,
+    "name": "Student Starter Pack",
+    "description": "Simple and effective tools for students entering the job market.",
+    "price": 5.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Entry-level templates",
+      "Internship resume guides",
+      "Cover letter examples"
+    ],
+    "icon": "GraduationCap"
+  },
+  {
+    "id": 7,
+    "name": "AI Resume Assistant",
+    "description": "Smart AI-powered suggestions to improve your resume instantly.",
+    "price": 24.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "AI content suggestions",
+      "Keyword optimization",
+      "Real-time feedback"
+    ],
+    "icon": "Sparkles"
+  },
+  {
+    "id": 8,
+    "name": "Ultimate Job Hunter Bundle",
+    "description": "Complete toolkit to land your dream job faster.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Resume + cover letter + portfolio",
+      "Interview preparation kit",
+      "Job tracking dashboard"
+    ],
+    "icon": "Target"
+  }
+]
