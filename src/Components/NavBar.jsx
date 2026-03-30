@@ -33,7 +33,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-               <ul className='flex justify-between gap-4 items-center'>
+               <ul className='flex justify-between gap-1 sm:gap-4  items-center'>
                  <li><a href=""><FaShoppingCart /></a></li>
                  <li className='hidden sm:block'><a href="">Login</a></li>
                  <li className='md:py-2 md:px-4 px-2 py-1 text-white 
