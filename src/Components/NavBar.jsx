@@ -4,7 +4,7 @@ import { FaShoppingCart } from "react-icons/fa";
 const NavBar = () => {
     return (
       
-        <div className="bg-base-100 w-11/16 mx-auto flex md:flex-nowrap space-y-3">
+        <div className="navbar bg-base-100 w-11/16 mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -22,8 +22,8 @@ const NavBar = () => {
                 </div>
                  <h1 className='bg-linear-to-r from-[#4F39F6] to-[#655da4] bg-clip-text text-transparent font-bold text-3xl'>DigiTools</h1>
             </div>
-            <div className="navbar-center hidden xl:flex">
-                <ul className="flex gap-4 px-1">
+            <div className="navbar-center hidden lg:flex">
+                <ul className="gap-4 menu-horizontal px-1">
                     <li><a href="">Products</a></li>
                     <li><a href="">Features</a></li>
                     <li><a href="">Pricing</a></li>
@@ -34,8 +34,8 @@ const NavBar = () => {
             <div className="navbar-end">
                <ul className='flex justify-between gap-4 items-center'>
                  <li><a href=""><FaShoppingCart /></a></li>
-                 <li><a href="">Login</a></li>
-                 <li className='py-2 px-4 text-white 
+                 <li className='hidden sm:block'><a href="">Login</a></li>
+                 <li className='md:py-2 md:px-4 px-2 py-1 text-white 
                  bg-linear-to-r from-[#4F39F6] to-[#655da4] rounded-full font-semibold'><a href="">Get Started</a></li>
                </ul>
             </div>
