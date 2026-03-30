@@ -20,7 +20,8 @@ const NavBar = () => {
                     <li><a href="">FAQ</a></li>
                 </ul>
                 </div>
-                 <h1 className='bg-linear-to-r from-[#4F39F6] to-[#655da4] bg-clip-text text-transparent font-bold text-3xl'>DigiTools</h1>
+                 <h1 className='bg-linear-to-r from-[#4F39F6] to-[#655da4] hidden sm:block
+                 bg-clip-text text-transparent font-bold text-3xl'>DigiTools</h1>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="gap-4 menu-horizontal px-1">
@@ -32,15 +33,12 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <ul className='flex gap-2 md:gap-4 items-center'>
-                    <li><a href="" className="p-2"><FaShoppingCart /></a></li>
-                    {/* Hide Login on small mobile to save space */}
-                    <li className="hidden sm:block"><a href="">Login</a></li>
-                    {/* Make button smaller on mobile */}
-                    <li className='py-1 px-3 md:py-2 md:px-4 text-white bg-linear-to-r from-[#4F39F6] to-[#655da4] rounded-full font-semibold text-xs md:text-base'>
-                        <a href="">Get Started</a>
-                    </li>
-                </ul>
+               <ul className='flex justify-between gap-4 items-center'>
+                 <li><a href=""><FaShoppingCart /></a></li>
+                 <li className='hidden sm:block'><a href="">Login</a></li>
+                 <li className='md:py-2 md:px-4 px-2 py-1 text-white 
+                 bg-linear-to-r from-[#4F39F6] to-[#655da4] rounded-full font-semibold'><a href="">Get Started</a></li>
+               </ul>
             </div>
             </div>
     );
