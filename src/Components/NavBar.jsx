@@ -37,7 +37,7 @@ const NavBar = () => {
                  <li><a href=""><FaShoppingCart /></a></li>
                  <li className='hidden sm:block'><a href="">Login</a></li>
                  <li className='md:py-2 md:px-4 px-2 py-1 text-white 
-                 bg-linear-to-r from-[#4F39F6] to-[#655da4] rounded-full font-semibold'><a href="">Get Started</a></li>
+                 bg-linear-to-r from-[#4F39F6] to-[#655da4] rounded-full text-nowrap font-semibold'><a href="">Get Started</a></li>
                </ul>
             </div>
             </div>
