@@ -20,8 +20,8 @@ const NavBar = () => {
                     <li><a href="">FAQ</a></li>
                 </ul>
                 </div>
-                 <h1 className='bg-linear-to-r from-[#4F39F6] to-[#655da4] hidden sm:block
-                 bg-clip-text text-transparent font-bold text-3xl'>DigiTools</h1>
+                 <h1 className='bg-linear-to-r from-[#4F39F6] to-[#655da4] 
+                 bg-clip-text text-transparent font-bold text-xl sm:text-3xl'>DigiTools</h1>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="gap-4 menu-horizontal px-1">
