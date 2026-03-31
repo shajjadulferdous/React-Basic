@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-const ModelCart = ({cart , buyCard , setBuyCard}) => {
+const ModelCart = ({cart , buyCard , setBuyCard , }) => {
     const [isBuy , buyFunc] = useState(false);
     const handleBuy = (buyerCart)=>{
          buyFunc(true);
          const ans =  buyCard.filter(card=> card.id != buyerCart.id);
-         setBuyCard([...ans , buyerCart]);
+         setBuyCard([...ans, cart]);
     }
     return (
                   <div className="card  bg-base-100 shadow-sm rounded-xl">
