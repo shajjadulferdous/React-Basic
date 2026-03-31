@@ -7,6 +7,7 @@
     "period": "one-time",
     "tag": "new",
     "tagType": "new",
+    "image": "/src/assets/products/resume.png",
     "features": [
       "20+ templates",
       "Basic customization",
@@ -22,6 +23,7 @@
     "period": "monthly",
     "tag": "popular",
     "tagType": "popular",
+    "image": "/src/assets/products/curriculum-vitae.png",
     "features": [
       "100+ templates",
       "ATS optimization",
@@ -37,6 +39,7 @@
     "period": "yearly",
     "tag": "best seller",
     "tagType": "best seller",
+    "image": "/src/assets/products/portfolio.png",
     "features": [
       "Resume + cover letter builder",
       "Portfolio templates",
@@ -52,6 +55,7 @@
     "period": "one-time",
     "tag": "new",
     "tagType": "new",
+    "image": "/src/assets/products/freelance-work.png",
     "features": [
       "Portfolio templates",
       "Client proposal samples",
@@ -67,6 +71,7 @@
     "period": "yearly",
     "tag": "best seller",
     "tagType": "best seller",
+    "image": "/src/assets/products/curriculum.png",
     "features": [
       "Executive-level templates",
       "Personal branding tools",
@@ -82,6 +87,7 @@
     "period": "one-time",
     "tag": "popular",
     "tagType": "popular",
+    "image": "/src/assets/products/students.png",
     "features": [
       "Entry-level templates",
       "Internship resume guides",
@@ -97,6 +103,7 @@
     "period": "monthly",
     "tag": "popular",
     "tagType": "popular",
+    "image": "/src/assets/products/ai.png",
     "features": [
       "AI content suggestions",
       "Keyword optimization",
@@ -112,6 +119,7 @@
     "period": "yearly",
     "tag": "best seller",
     "tagType": "best seller",
+    "image": "/src/assets/products/businessman.png",
     "features": [
       "Resume + cover letter + portfolio",
       "Interview preparation kit",
