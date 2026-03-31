@@ -28,10 +28,10 @@ function App() {
       <Details></Details>
       <CardHeader SetState = {SetState}></CardHeader>
       {
-           State ? <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
-            <BuyCard></BuyCard>
+          State ? <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+            <BuyCard buyCard={buyCard} setBuyCard={setBuyCard}></BuyCard>
           </Suspense> : <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>        
-           <Model cartPromise={cartPromise} ></Model>
+           <Model cartPromise={cartPromise} buyCard={buyCard} setBuyCard ={setBuyCard} ></Model>
           </Suspense>
       }
       <ToolCard/>

@@ -1,6 +1,7 @@
 import React from 'react';
 
-const BuyCard = () => {
+const BuyCard = ({buyCard,setBuyCard}) => {
+    console.log(buyCard)
     return (
         <div>
             

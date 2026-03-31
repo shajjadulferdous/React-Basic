@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-const ModelCart = ({cart}) => {
+const ModelCart = ({cart , buyCard , setBuyCard}) => {
     const [isBuy , buyFunc] = useState(false);
-    const handleBuy = ()=>{
+    const handleBuy = (buyerCart)=>{
          buyFunc(true);
+         const ans =  buyCard.filter(card=> card.id != buyerCart.id);
+         setBuyCard([...ans , buyerCart]);
     }
     return (
                   <div className="card  bg-base-100 shadow-sm rounded-xl">
@@ -31,7 +33,7 @@ const ModelCart = ({cart}) => {
                             }                                           
                         </ul>
                         <div className="mt-6 ">
-                        <button onClick={handleBuy} className={`btn ${!isBuy ? 'btn-primary' : 'btn-info text-white'} btn-block rounded-full`}>{isBuy ? 'Added to card!':'Buy Now'}</button>
+                        <button onClick={() =>{handleBuy(cart)}} className={`btn ${!isBuy ? 'btn-primary' : 'btn-info text-white'} btn-block rounded-full`}>{isBuy ? 'Added to card!':'Buy Now'}</button>
                         </div>
                     </div>
                   </div>
