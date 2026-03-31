@@ -18,6 +18,7 @@ const NavBar = () => {
                     <li><a href="">Pricing</a></li>
                     <li><a href="">Testimonials</a></li>
                     <li><a href="">FAQ</a></li>
+                    <li><a href="">Login</a></li>
                 </ul>
                 </div>
                  <h1 className='bg-linear-to-r from-[#4F39F6] to-[#655da4] 
@@ -30,6 +31,7 @@ const NavBar = () => {
                     <li><a href="">Pricing</a></li>
                     <li><a href="">Testimonials</a></li>
                     <li><a href="">FAQ</a></li>
+                    
                 </ul>
             </div>
             <div className="navbar-end">
