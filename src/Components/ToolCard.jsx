@@ -5,7 +5,7 @@ import RocketImg from '../assets/rocket.png'
 const ToolCard = () => {
     return (
         <div className='w-12/16 mx-auto my-15'>
-            <h1 className='text-5xl text-center font-extrabold mb-3'>Get Started in 3 Steps</h1>
+            <h1 className='text-4xl md:text-5xl text-center font-extrabold mb-3'>Get Started in 3 Steps</h1>
             <p className='text-[#627382] mb-10 text-center'>Start using premium digital tools in minutes, not hours.</p>
             {/* /<div className='flex text-center gap-8'>
              <div className='flex flex-col justify-center items-center relative shadow-md'>
@@ -39,7 +39,7 @@ const ToolCard = () => {
             </div>
             </div>  */}
               <div className='gap-8 my-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center '>
-                  <div className='shadow-md w-full relative'>
+                  <div className='shadow-md w-full relative rounded-xl'>
                       <div className='text-center pt-10 justify-center items-center py-15 px-10 rounded-xl'>
                           <div className='flex justify-center items-center'>
                              <img src={UserImg} alt="" className='bg-[#E1E7FF] p-8 rounded-full' />
@@ -49,7 +49,7 @@ const ToolCard = () => {
                       </div>
                          <span className='absolute top-1 right-1 text-white bg-linear-to-r from-[#4F39F6] to-[#655da4] px-2.5 py-1.5 rounded-full'>01</span>
                   </div>
-                  <div className='shadow-md w-full relative'>
+                  <div className='shadow-md w-full relative rounded-xl'>
                       <div className='text-center pt-10 justify-center items-center py-15 px-10 rounded-xl'>
                           <div className='flex justify-center items-center'>
                              <img src={PackageImg} alt="" className='bg-[#E1E7FF] p-8 rounded-full' />
@@ -59,7 +59,7 @@ const ToolCard = () => {
                       </div>
                       <span className='absolute top-1 right-1 text-white bg-linear-to-r from-[#4F39F6] to-[#655da4] px-2.5 py-1.5 rounded-full'>02</span>
                   </div>
-                  <div className='shadow-md w-full relative'>
+                  <div className='shadow-md w-full relative rounded-xl'>
                       <div className='text-center pt-10 justify-center items-center py-15 px-10 rounded-xl'>
                           <div className='flex justify-center items-center'>
                              <img src={RocketImg} alt="" className='bg-[#E1E7FF] p-8 rounded-full ' />

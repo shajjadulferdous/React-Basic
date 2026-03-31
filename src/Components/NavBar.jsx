@@ -4,7 +4,7 @@ import { FaShoppingCart } from "react-icons/fa";
 const NavBar = () => {
     return (
       
-        <div className="navbar bg-base-100 w-11/16 mx-auto">
+        <div className="navbar bg-base-100 w-14/16 md:w-12/16 mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,10 +35,10 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-               <ul className='flex justify-between gap-1 sm:gap-4  items-center'>
+               <ul className='flex justify-between gap-2 sm:gap-4  items-center'>
                  <li><a href=""><FaShoppingCart /></a></li>
-                 <li className='hidden sm:block'><a href="">Login</a></li>
-                 <li className='md:py-2 md:px-4 px-2 py-1 text-white 
+                 <li className=''><a href="">Login</a></li>
+                 <li className='md:py-2 md:px-4 px-2 py-1 text-white text-sm sm:text-[16px] 
                  bg-linear-to-r from-[#4F39F6] to-[#655da4] rounded-full text-nowrap font-semibold'><a href="">Get Started</a></li>
                </ul>
             </div>

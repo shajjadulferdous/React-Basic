@@ -44,7 +44,7 @@ const PricingCard = () => {
                   </div>
                   <div className="card  bg-base-100 shadow-sm bg-linear-to-r from-[#4F39F6] to-[#655da4] relative rounded-xl">
                     <div className="card-body text-white">
-                        <span className="badge  bg-[#FEF3C6] text-[#BB4D00] rounded-full py-2 px-3 absolute -top-2 right-[40%]">Most Popular</span>
+                        <span className="badge  bg-[#FEF3C6] text-[#BB4D00] rounded-full py-2 px-3 absolute -top-2 right-[35%]">Most Popular</span>
                         <div className="flex justify-between flex-col">
                         <h2 className="text-3xl font-bold text-white">Pro</h2>
                         <p className='text-[16px] opacity-70'>Best for professionals</p>
