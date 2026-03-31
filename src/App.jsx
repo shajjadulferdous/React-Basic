@@ -29,9 +29,9 @@ function App() {
       <CardHeader SetState = {SetState}></CardHeader>
       {
            State ? <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+            <BuyCard></BuyCard>
+          </Suspense> : <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>        
            <Model cartPromise={cartPromise} ></Model>
-          </Suspense> : <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
-           <BuyCard></BuyCard>
           </Suspense>
       }
       <ToolCard/>
