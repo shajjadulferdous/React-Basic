@@ -23,7 +23,7 @@ function App() {
   const [buyCard , setBuyCard] = useState([]);
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar buyCard={buyCard}></NavBar>
       <Banner></Banner>
       <Details></Details>
       <CardHeader State={State} SetState = {SetState } buyCard={buyCard}></CardHeader>
