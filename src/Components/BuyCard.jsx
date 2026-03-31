@@ -1,12 +1,14 @@
 import React from 'react';
 import { MdDelete } from "react-icons/md";
 import NoItemImg from '../assets/icon_empty_cart.png'
+import { toast } from 'react-toastify';
 const BuyCard = ({buyCard,setBuyCard}) => {
     console.log(buyCard)
     const sum = buyCard.reduce( (s , items) => s + items.price , 0)
     const handleOneCard = (items)=>{
         const filtered = buyCard.filter( item => item.id != items.id);
         setBuyCard(filtered);
+        toast(`${items.name} Deleted Successfully`)
     }
     return (
         <div className='w-12/16 mx-auto mt-10 space-y-5'>
@@ -41,7 +43,9 @@ const BuyCard = ({buyCard,setBuyCard}) => {
                 <div className='font-bold text-2xl'>Total</div>
                 <div className='font-bold text-2xl px-5'>{sum}</div>
              </div>
-            <button onClick={ ()=> setBuyCard([])} className='btn btn-primary p-4 w-full rounded-full'>Proceed to Checkout</button>
+            <button onClick={ ()=> {setBuyCard([]);
+                toast.success(`All items cleared`)
+            }} className='btn btn-primary p-4 w-full rounded-full'>Proceed to Checkout</button>
         </div>
     );
 };

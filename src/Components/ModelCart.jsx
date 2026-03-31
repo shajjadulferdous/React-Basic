@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 const ModelCart = ({cart , buyCard , setBuyCard , }) => {
     const [isBuy , buyFunc] = useState(false);
     const handleBuy = (buyerCart)=>{
          buyFunc(true);
          const ans =  buyCard.filter(card=> card.id != buyerCart.id);
          setBuyCard([...ans, cart]);
+         toast.success('Purchassed suceessfully')
     }
     return (
                   <div className="card  bg-base-100 shadow-sm rounded-xl">
