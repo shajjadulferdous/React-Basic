@@ -1,16 +1,27 @@
-# React + Vite
+# Digital Tools Buying Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 project description
+### This project is a simple Digital Tools Buying Website built using React.js.
+The main goal of this project is to practice core React concepts while creating a clean and interactive user interface.
 
-Currently, two official plugins are available:
+In this application, users can browse different digital tools displayed as cards. By clicking specific buttons, users can add items to the cart, remove them, or clear the entire cart.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚙️ Technologies Used
+### React.js
+### Tailwind CSS, DaisyUI
+### JavaScript (ES6+)
+### React-Toastify (NPM Package)
+### React-icons
+### JSON (for product data)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+####  Browse digital tools in a clean card layout
+####  Add items to the cart with a single click
+####  Remove individual items from the cart
+#### Clear all items from the cart at once
+#### Dynamic UI updates based on cart state
+#### Toast notifications for user actions
+#### Responsive and modern UI design
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

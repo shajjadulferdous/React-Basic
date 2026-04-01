@@ -5,8 +5,10 @@ const ModelCart = ({cart , buyCard , setBuyCard , }) => {
     const handleBuy = (buyerCart)=>{
          buyFunc(true);
          const ans =  buyCard.filter(card=> card.id != buyerCart.id);
+         
          setBuyCard([...ans, cart]);
-         toast.success(`${buyerCart.name} Purchassed suceessfully`)
+         if (ans.length == buyCard.length) toast.success(`${buyerCart.name} Purchassed suceessfully`)
+         else toast.error(`${cart.name} Already Purchassed`)
     }
     return (
                   <div className="card  bg-base-100 shadow-sm rounded-xl  
@@ -25,7 +27,7 @@ const ModelCart = ({cart , buyCard , setBuyCard , }) => {
                         <p className='text-[#627382] text-[16px]'>{cart.description}</p>
                         <span className="text-xl mt-5">
                          <span className='font-bold text-3xl'>${cart.price}</span>     
-                            <span className='text-[#627382]'>/month</span></span>
+                            <span className='text-[#627382]'>/{cart.period.toUpperCase()}</span></span>
                         </div>
                         <ul className="mt-6 flex flex-col gap-2 text-xs">
                             {
@@ -37,7 +39,7 @@ const ModelCart = ({cart , buyCard , setBuyCard , }) => {
                             }                                           
                         </ul>
                         <div className="mt-6 ">
-                        <button onClick={() =>{handleBuy(cart)}} className={`btn ${!isBuy ? 'btn-primary' : 'btn-info text-white'} btn-block rounded-full`}>{isBuy ? 'Added to card!':'Buy Now'}</button>
+                        <button onClick={() =>{handleBuy(cart)}} className={`btn ${!isBuy ? 'btn-primary' : 'btn-info text-white'} btn-block rounded-full`}>{isBuy ? 'Added to Cart !':'Buy Now'}</button>
                         </div>
                     </div>
                   </div>
