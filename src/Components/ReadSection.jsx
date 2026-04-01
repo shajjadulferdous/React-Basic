@@ -4,7 +4,7 @@ const ReadSection = () => {
     return (
         <>
           <div className='bg-linear-to-r from-[#4F39F6] to-[#655da4] text-white mt-15 md:mt-30'>
-               <div className='w-12/16 mx-auto py-15 md:py-30 text-center'>
+               <div className='w-14/16 md:w-12/16 mx-auto py-15 md:py-30 text-center'>
                    <h1 className='text-2xl md:text-4xl font-extrabold mb-4'>Ready to Transform Your Workflow?</h1>
                    <p className='opacity-70'>Join thousands of professionals who are already using Digitools to work smarter.</p>
                    <p className='opacity-70'>Start your free trial today.</p>

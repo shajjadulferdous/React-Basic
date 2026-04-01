@@ -4,8 +4,8 @@ import { FaShoppingCart } from "react-icons/fa";
 const NavBar = ({buyCard}) => {
     return (
       
-        <div className='bg-white sticky top-0 z-10 w-full shadow-md'>
-            <div className="navbar bg-base-100 w-14/16 md:w-12/16 mx-auto ">
+        <div className='bg-white md:sticky top-0 z-10 w-full shadow-sm md:shadow-md'>
+            <div className="navbar bg-base-100  md:w-12/16 mx-auto ">
             <div className="navbar-start">
                 <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -36,11 +36,11 @@ const NavBar = ({buyCard}) => {
                 </ul>
             </div>
             <div className="navbar-end">
-               <ul className='flex justify-between gap-2 sm:gap-8  items-center'>
+               <ul className='flex justify-between gap-9 sm:gap-8  items-center'>
                  <li className='relative'>
                     <a href=""><FaShoppingCart className='w-7 h-7'/></a>
                     {
-                        buyCard.length ? <span className='absolute -top-4 -right-4 font-bold bg-gray-400 rounded-full px-2'>{buyCard.length}</span> : ''
+                        buyCard.length ? <span className='absolute -top-4 -right-4 font-bold bg-blue-500 rounded-full px-2'>{buyCard.length}</span> : ''
                     }
                  </li>
                  <li className='hidden sm:block'><a href="">Login</a></li>

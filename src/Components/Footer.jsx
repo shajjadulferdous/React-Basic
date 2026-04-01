@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <>
         <div className='bg-[#101727] text-white '>
-             <div className='w-12/16 mx-auto'>
+             <div className='w-14/16 md:w-12/16 mx-auto'>
              <div className='pt-15 pb-10 md:pt-30 md:pb-20 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4  justify-center'>
                  <div>
                     <h1 className=' text-2xl md:text-4xl font-bold mb-4'>DigiTools</h1>

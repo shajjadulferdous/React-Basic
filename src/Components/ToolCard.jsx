@@ -4,7 +4,7 @@ import PackageImg from '../assets/package.png'
 import RocketImg from '../assets/rocket.png'
 const ToolCard = () => {
     return (
-        <div className='w-12/16 mx-auto my-15'>
+        <div className='w-14/16 md:w-12/16 mx-auto my-15'>
             <h1 className='text-4xl md:text-5xl text-center font-extrabold mb-3'>Get Started in 3 Steps</h1>
             <p className='text-[#627382] mb-10 text-center'>Start using premium digital tools in minutes, not hours.</p>
             {/* /<div className='flex text-center gap-8'>
