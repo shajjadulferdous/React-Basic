@@ -23,7 +23,7 @@ const BuyCard = ({buyCard,setBuyCard}) => {
                             <p className='opacity-60 text-center sm:text-start'>${cart.price}</p>
                         </div>
                     </div>
-                      <div className='pr-6'>
+                      <div className='sm:pr-6'>
                           <div className='btn' onClick={()=>{handleOneCard(cart)}}>
                             <MdDelete className='w-5 h-5 '></MdDelete>
                          </div>

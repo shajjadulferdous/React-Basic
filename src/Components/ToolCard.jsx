@@ -67,7 +67,7 @@ const ToolCard = () => {
                         hover:-translate-y-1 hover:border-primary/30'>
                       <div className='text-center pt-10 justify-center items-center py-15 px-10 rounded-xl'>
                           <div className='flex justify-center items-center'>
-                             <img src={RocketImg} alt="" className='bg-[#E1E7FF] p-8 rounded-full ' />
+                             <img src={RocketImg} alt="" className='bg-[#E1E7FF] p-8  rounded-full ' />
                           </div>
                            <h3 className='text-2xl font-bold'>Start Creating</h3>
                            <p className='text-[#627382]'>Download and start using your premium tools immediately.</p>

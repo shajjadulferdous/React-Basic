@@ -23,7 +23,7 @@ const NavBar = ({buyCard}) => {
                 </ul>
                 </div>
                  <h1 className='bg-linear-to-r from-[#4F39F6] to-[#655da4] 
-                 bg-clip-text text-transparent font-bold text-xl sm:text-3xl'>DigiTools</h1>
+                 bg-clip-text text-transparent font-bold text-[22px] sm:text-3xl'>DigiTools</h1>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="gap-4 menu-horizontal px-1">
@@ -36,13 +36,15 @@ const NavBar = ({buyCard}) => {
                 </ul>
             </div>
             <div className="navbar-end">
-               <ul className='flex justify-between gap-2 sm:gap-4  items-center'>
+               <ul className='flex justify-between gap-2 sm:gap-8  items-center'>
                  <li className='relative'>
-                    <a href=""><FaShoppingCart /></a>
-                    <span className='absolute -top-3 -right-2'>{buyCard.length}</span>
+                    <a href=""><FaShoppingCart className='w-7 h-7'/></a>
+                    {
+                        buyCard.length ? <span className='absolute -top-4 -right-4 font-bold bg-gray-400 rounded-full px-2'>{buyCard.length}</span> : ''
+                    }
                  </li>
-                 <li className=''><a href="">Login</a></li>
-                 <li className='md:py-2 md:px-4 px-2 py-1 text-white text-sm sm:text-[16px] 
+                 <li className='hidden sm:block'><a href="">Login</a></li>
+                 <li className='md:py-2 md:px-4 px-3 py-2 text-white text-sm sm:text-[16px] 
                  bg-linear-to-r from-[#4F39F6] to-[#655da4] rounded-full text-nowrap font-semibold'><a href="">Get Started</a></li>
                </ul>
             </div>
