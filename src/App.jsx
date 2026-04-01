@@ -19,6 +19,7 @@ const cartFetch = async() =>{
 }
 const cartPromise = cartFetch();
 function App() {
+  
   const [State , SetState] = useState(false)
   const [buyCard , setBuyCard] = useState([]);
   return (
@@ -28,9 +29,15 @@ function App() {
       <Details></Details>
       <CardHeader State={State} SetState = {SetState } buyCard={buyCard}></CardHeader>
       {
-          State ? <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+          State ? <Suspense fallback={
+            <div className='flex justify-center items-center h-300'>
+               <span className="loading loading-spinner loading-xl"></span>
+            </div>
+          }>
             <BuyCard  buyCard={buyCard} setBuyCard={setBuyCard}></BuyCard>
-          </Suspense> : <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>        
+          </Suspense> : <Suspense fallback={<div className='flex justify-center items-center h-300'>
+               <span className="loading loading-spinner loading-xl"></span>
+            </div>}>        
            <Model cartPromise={cartPromise} buyCard={buyCard} setBuyCard ={setBuyCard} ></Model>
           </Suspense>
       }

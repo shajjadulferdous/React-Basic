@@ -7,7 +7,10 @@ const PricingCard = () => {
                 <h1 className='text-4xl md:text-5xl  text-center font-extrabold mb-3'>Simple, Transparent Pricing</h1>
                 <p className='text-center text-[#627382] text-[18px]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 w-12/16 mx-auto'>
-                  <div className="card  bg-base-100 shadow-sm rounded-xl">
+                  <div className="card  bg-base-100 shadow-sm rounded-xl 
+                    duration-500 transition-all hover:shadow-md 
+                    hover:-translate-y-1 hover:border-primary/30
+                  ">
                     <div className="card-body">
                     
                         <div className="flex justify-between flex-col">
@@ -42,7 +45,10 @@ const PricingCard = () => {
                         </div>
                     </div>
                   </div>
-                  <div className="card  bg-base-100 shadow-sm bg-linear-to-r from-[#4F39F6] to-[#655da4] relative rounded-xl">
+                  <div className="card  bg-base-100 shadow-sm bg-linear-to-r from-[#4F39F6] to-[#655da4] relative rounded-xl
+                     duration-500 transition-all hover:shadow-md 
+                     hover:-translate-y-1 hover:border-primary/30
+                  ">
                     <div className="card-body text-white">
                         <span className="badge  bg-[#FEF3C6] text-[#BB4D00] rounded-full py-2 px-3 absolute -top-2 right-[35%]">Most Popular</span>
                         <div className="flex justify-between flex-col">
@@ -86,7 +92,10 @@ const PricingCard = () => {
                     </div>
                   </div>
 
-                  <div className="card  bg-base-100 shadow-sm rounded-xl">
+                  <div className="card  bg-base-100 shadow-sm rounded-xl
+                     duration-500 transition-all hover:shadow-md 
+                     hover:-translate-y-1 hover:border-primary/30
+                  ">
                     <div className="card-body">
                     
                         <div className="flex justify-between flex-col">

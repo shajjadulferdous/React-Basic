@@ -19,15 +19,17 @@ const Banner = () => {
                 </p>
                 <div className='flex gap-4 flex-col sm:flex-row'>
                     <button className='py-2 px-4 text-white  
-                    bg-linear-to-r from-[#4F39F6] to-[#655da4] rounded-full font-semibold'>Explore Products</button>
+                    bg-linear-to-r from-[#4F39F6] to-[#655da4] rounded-full font-semibold 
+                    hover:cursor-pointer  active:scale-95
+                    '>Explore Products</button>
                     <button className='flex gap-2 items-center justify-center
                      text-white font-semibold  py-2 px-4 
-                      border-2 border-[#4F39F6] rounded-full 
+                      border-2 border-[#4F39F6] rounded-full hover:cursor-pointer  active:scale-95
                     '>
                          <img src={playImg} alt="" />
                          <span className='bg-linear-to-r from-[#4F39F6] to-[#655da4]
                           bg-clip-text
-                          text-transparent
+                          text-transparent 
                          '>Watch Demo</span>
                         </button>
                   </div>

@@ -6,10 +6,12 @@ const ModelCart = ({cart , buyCard , setBuyCard , }) => {
          buyFunc(true);
          const ans =  buyCard.filter(card=> card.id != buyerCart.id);
          setBuyCard([...ans, cart]);
-         toast.success('Purchassed suceessfully')
+         toast.success(`${buyerCart.name} Purchassed suceessfully`)
     }
     return (
-                  <div className="card  bg-base-100 shadow-sm rounded-xl">
+                  <div className="card  bg-base-100 shadow-sm rounded-xl  
+                        duration-500 transition-all hover:shadow-md 
+                        hover:-translate-y-1 hover:border-primary/30">
                     <div className="card-body">
                          <div className='flex justify-end'>
                              <span className={`badge badge-xs badge-warning ${cart.tag == 'new'?'bg-green-200 text-green-500 border-none':cart.tag =='popular' ?'bg-[#E1E7FF] text-[#4F39F6] border-none':'bg-[#FEF3C6] border-none text-[#BB4D00]'}`}>{cart.tag}</span>
