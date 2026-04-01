@@ -4,7 +4,8 @@ import { FaShoppingCart } from "react-icons/fa";
 const NavBar = ({buyCard}) => {
     return (
       
-        <div className="navbar bg-base-100 w-14/16 md:w-12/16 mx-auto">
+        <div className='bg-white sticky top-0 z-10 w-full shadow-md'>
+            <div className="navbar bg-base-100 w-14/16 md:w-12/16 mx-auto ">
             <div className="navbar-start">
                 <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -46,6 +47,7 @@ const NavBar = ({buyCard}) => {
                </ul>
             </div>
             </div>
+        </div>
     );
 };
 

@@ -40,7 +40,7 @@ const BuyCard = ({buyCard,setBuyCard}) => {
             }
              <div className='flex justify-between'>
                 <div className='font-bold text-2xl'>Total</div>
-                <div className='font-bold text-2xl px-5'>{sum}</div>
+                <div className='font-bold text-2xl px-5'>${sum}</div>
              </div>
             <button onClick={ ()=> {setBuyCard([]);
                 toast.success(`All items cleared`)

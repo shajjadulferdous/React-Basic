@@ -14,7 +14,7 @@ In this application, users can browse different digital tools displayed as cards
 ### React-icons
 ### JSON (for product data)
 
-## Features
+## 🛍️Features
 
 ####  Browse digital tools in a clean card layout
 ####  Add items to the cart with a single click
